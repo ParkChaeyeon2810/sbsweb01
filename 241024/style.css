@@ -1,0 +1,17 @@
+.title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h1 {
+  color: crimson;
+}
+h2 {
+  color: #0ff;
+}
+h3 {
+  color: rgb(255, 0, 255);
+}
+h4 {
+  color: rgba(0, 0, 0, 0.5);
+}
