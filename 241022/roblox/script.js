@@ -1,5 +1,13 @@
 const femaleBtn = document.getElementById("femalebtn");
 femaleBtn.addEventListener('click', (e)=>{
     e.preventDefault();
-    console.log("나 여기 있어요!")
+    femaleBtn.querySelector('#femalebtn i').classList.add('filledA');
+    document.querySelector('#malebtn i').classList.remove('filledB');
 });
+
+const maleBtn = document.getElementById('malebtn');
+maleBtn.addEventListener('click',(e)=>{
+    e.preventDefault();
+    maleBtn.querySelector('#malebtn i').classList.add('filledB');
+    document.querySelector('#femalebtn i').classList.remove('filledA');
+})
