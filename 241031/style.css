@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 960px;
+    margin: 0 auto;
+    header{
+        width: 100%;
+        background: #ccc;
+        padding: 10px;
+    }
+    nav{
+        width: 100%;
+        background: #ddd;
+        padding: 10px;
+    }
+    main{
+        overflow: hidden;
+        Aside{
+            width: 200px;
+            float: left;
+            background: burlywood;
+            padding: 10px;
+        }
+        section{
+            width: 760px;
+            height: 304px;
+            float: right;
+            background: tomato;
+            padding: 10px;
+            button{
+                margin-top: 10px;
+                padding: 14px 18px;
+                font-size: 18px;
+                font-weight: 600;
+                text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5)
+                border: none;
+                border-radius: 8px;
+                box-shadow: 0 0 8px #000;
+                cursor: pointer;
+                color: #fff;
+                background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+            }
+        }
+    }
+    footer{
+        width: 100%;
+        background: dodgerblue;
+        padding: 10px;
+    }
+}
